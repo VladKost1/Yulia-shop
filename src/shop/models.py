@@ -2,7 +2,15 @@ from django.contrib.auth import get_user_model
 from django.db import models
 
 
-class Product(models.Model):
+class BaseModel(models.Model):
+    class Meta:
+        abstract = True
+
+    create_datetime = models.DateTimeField(null=True, auto_now_add=True)
+    last_update = models.DateTimeField(null=True, auto_now=True)
+
+
+class Product(BaseModel):
     class Meta:
         verbose_name = "Product"
         verbose_name_plural = "Products"
@@ -20,7 +28,7 @@ class Product(models.Model):
         return f"{self.title}{self.category.name}"
 
 
-class Category(models.Model):
+class Category(BaseModel):
     name = models.CharField(max_length=128)
     description = models.CharField(verbose_name="description", max_length=128, null=True, blank=True)
     slug = models.SlugField(max_length=200, db_index=True, unique=True)
@@ -33,10 +41,10 @@ class Category(models.Model):
         return f"{self.name}"
 
 
-class Basket(models.Model):
+class Basket(BaseModel):
     user = models.OneToOneField(
         to=get_user_model(),
-        related_name="user",
+        related_name="customer",
         on_delete=models.CASCADE,
     )
     products = models.ManyToManyField(to="shop.Product", related_name="baskets")
