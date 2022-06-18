@@ -1,3 +1,5 @@
+import uuid
+
 from django.contrib.auth import get_user_model
 from django.db import models
 
@@ -19,6 +21,7 @@ class Product(BaseModel):
         to="shop.Category", verbose_name="category", on_delete=models.CASCADE, related_name="category"
     )
     title = models.CharField(verbose_name="Title", max_length=128)
+    uuid = models.UUIDField(default=uuid.uuid4, db_index=True, unique=True)
     description = models.TextField(verbose_name="Description", blank=True, null=True)
     price = models.DecimalField(verbose_name="Price", max_digits=8, decimal_places=2, default=0)
     quantity = models.PositiveIntegerField(verbose_name="quantity in store", default=0)
