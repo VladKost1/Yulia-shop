@@ -26,7 +26,6 @@ def get_pairs_sum(arr, n, res):
         count[arr[i]] = i
 
 
-# Driver function
 arr = [7, 12, 3, 1, 2, -6, 5, -8, 6]
 n = 0
 get_pairs_sum(arr, len(arr), n)
