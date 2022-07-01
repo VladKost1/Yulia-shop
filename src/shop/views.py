@@ -1,26 +1,30 @@
 from django.shortcuts import render
+from django.views.generic import DetailView, ListView
 
-# Create your views here.
-
-
-class Fibonacci:
-    def __init__(self):
-        self.cache = [0, 1]
-
-    def __call__(self, n):
-        # Validate the value of n
-        if not (isinstance(n, int) and n >= 0):
-            raise ValueError(f'Positive integer number expected, got "{n}"')
-
-        # Check for computed Fibonacci numbers
-        if n < len(self.cache):
-            return self.cache[n]
-        else:
-            # Compute and cache the requested Fibonacci number
-            fib_number = self(n - 1) + self(n - 2)
-            self.cache.append(fib_number)
-
-        return self.cache[n]
+from accounts.models import Customer
+from shop.models import Basket, Category, Product
 
 
-print(Fibonacci.__call__(3))
+class IndexView(ListView):
+    template_name = "index.html"
+    model = Product
+
+
+class ProductDetailView(ListView):
+    template_name = "products.html"
+    model = Product
+
+
+class CategoryDetailView(ListView):
+    template_name = "category.html"
+    model = Category
+
+
+class BasketDetailView(ListView):
+    template_name = "basket.html"
+    model = Basket
+
+
+class AccountView(ListView):
+    template_name = "account.html"
+    model = Customer
