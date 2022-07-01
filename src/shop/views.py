@@ -1,9 +1,11 @@
 import json
-from django.shortcuts import render
+
 from django.http import JsonResponse
+from django.shortcuts import render
 from django.views.generic import DetailView, ListView
+
 from accounts.models import Customer
-from shop.models import Order, Category, Product, OrderItem
+from shop.models import Category, Order, OrderItem, Product
 
 
 class IndexView(ListView):
@@ -24,7 +26,7 @@ class ProductDetailView(DetailView):
 class CategoryView(ListView):
     model = Category
     template_name = "category.html"
-    context_object_name = 'all_categories'
+    context_object_name = "all_categories"
 
 
 class CategorySelectView(ListView):
@@ -33,8 +35,8 @@ class CategorySelectView(ListView):
 
     def get_context_data(self, *, object_list=None, **kwargs):
         context = super(CategorySelectView, self).get_context_data(**kwargs)
-        filtered_products = Product.objects.filter(category__slug=self.kwargs['cat_slug'])
-        context.update({'all_products': filtered_products})
+        filtered_products = Product.objects.filter(category__slug=self.kwargs["cat_slug"])
+        context.update({"all_products": filtered_products})
         return context
 
 
@@ -44,7 +46,7 @@ class AccountView(ListView):
 
 
 def location(request):
-    return render(request, 'location.html')
+    return render(request, "location.html")
 
 
 def cart(request):
@@ -55,11 +57,11 @@ def cart(request):
         cartItems = order.get_cart_items
     else:
         items = []
-        order = {'get_cart_total': 0, 'get_cart_items': 0}
-        cartItems = ['get_cart_item']
+        order = {"get_cart_total": 0, "get_cart_items": 0}
+        cartItems = ["get_cart_item"]
 
-    context = {'items': items, 'order': order, 'cartItems': cartItems}
-    return render(request, 'cart.html', context)
+    context = {"items": items, "order": order, "cartItems": cartItems}
+    return render(request, "cart.html", context)
 
 
 # def updateItem(request):
@@ -88,4 +90,3 @@ def cart(request):
 #         orderItem.delete()
 #
 #     return JsonResponse('Item was added', safe=False)
-

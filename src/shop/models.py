@@ -44,16 +44,12 @@ class Category(BaseModel):
         return f"{self.name}"
 
     def get_absolute_url(self):
-        return reverse('shop:category', kwargs={'cat_slug': self.slug})
+        return reverse("shop:category", kwargs={"cat_slug": self.slug})
 
 
 class Order(BaseModel):
     customer = models.ForeignKey(
-        to=get_user_model(),
-        related_name="customer",
-        on_delete=models.SET_NULL,
-        null=True,
-        blank=True
+        to=get_user_model(), related_name="customer", on_delete=models.SET_NULL, null=True, blank=True
     )
     complete = models.BooleanField(default=False)
     transaction_id = models.CharField(max_length=100, null=True)
@@ -75,7 +71,7 @@ class Order(BaseModel):
 
 
 class OrderItem(BaseModel):
-    product = models.ForeignKey(Product, related_name='product', on_delete=models.SET_NULL, null=True)
+    product = models.ForeignKey(Product, related_name="product", on_delete=models.SET_NULL, null=True)
     order = models.ForeignKey(Order, on_delete=models.SET_NULL, null=True)
     quantity = models.PositiveIntegerField(verbose_name="quantity in store", default=0, null=True, blank=True)
 
@@ -86,12 +82,7 @@ class OrderItem(BaseModel):
 
 
 class ShippingAddress(BaseModel):
-    customer = models.ForeignKey(
-        to=get_user_model(),
-        related_name="address",
-        on_delete=models.SET_NULL,
-        null=True
-    )
+    customer = models.ForeignKey(to=get_user_model(), related_name="address", on_delete=models.SET_NULL, null=True)
     order = models.ForeignKey(Order, on_delete=models.SET_NULL, null=True)
     address = models.CharField(max_length=100, null=False)
     city = models.CharField(max_length=50, null=False)
