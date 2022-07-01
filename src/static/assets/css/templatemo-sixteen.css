@@ -409,9 +409,9 @@ header .navbar {
 
 .latest-products .section-heading a {
 	float: right;
-	margin-top: -35px;
+	margin-top: -20px;
 	text-transform: uppercase;
-	font-size: 13px;
+	font-size: 14px;
 	font-weight: 700;
 	color: #f33f3f;
 }
@@ -1057,4 +1057,5 @@ footer .inner-content p a {
 		right: 0;
 		bottom: 0;
 	}
+
 }
