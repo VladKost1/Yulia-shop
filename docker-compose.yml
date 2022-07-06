@@ -1,0 +1,39 @@
+version: "2"
+
+services:
+  backend:
+    build: ./
+    container_name: shop_container
+    working_dir: /Yulia_shop
+    restart: always
+    command:
+      - ./commands/start_server.sh
+    ports:
+      - ${LOCAL_PORT}:${WSGI_PORT}
+    volumes:
+      - ./src:/Yulia_shop/src
+#      - static_content:/Yulia_shop/src/static
+#      - media_content:/Yulia_shop/src/media
+    env_file:
+      - .env
+    depends_on:
+      - postgres
+
+  postgres:
+    image: postgres:12
+    ports:
+      - 5432:5432
+    volumes:
+      - pg_data:/var/lib/postgresql/data
+#    environment:
+#      POSTGRES_PASSWORD: admin
+#      POSTGRES_USER: admin
+#      POSTGRES_DB: shop
+    env_file:
+      - .env
+
+
+
+
+volumes:
+  pg_data: { }
