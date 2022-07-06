@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from rest_framework import viewsets
-from rest_framework.generics import ListCreateAPIView, RetrieveAPIView, UpdateAPIView, DestroyAPIView
+from rest_framework.generics import (DestroyAPIView, ListCreateAPIView,
+                                     RetrieveAPIView, UpdateAPIView)
 from rest_framework.permissions import AllowAny
 from rest_framework.viewsets import ModelViewSet
 
@@ -32,16 +33,15 @@ class ProductDetailView(RetrieveAPIView):
 class ProductUpdateView(UpdateAPIView):
     queryset = Product.objects.all()
     serializer_class = ProductDetailSerializer
-    lookup_field = 'uuid'
+    lookup_field = "uuid"
 
 
 class ProductDeleteView(DestroyAPIView):
     queryset = Product.objects.all()
     serializer_class = ProductDetailSerializer
-    lookup_field = 'uuid'
+    lookup_field = "uuid"
 
 
 class CategoryViewSet(viewsets.ModelViewSet):
     queryset = Category.objects.all()
     serializer_class = CategoryNestedSerializer
-
