@@ -1,4 +1,3 @@
-from rest_framework.permissions import AllowAny
 from rest_framework.serializers import ModelSerializer
 
 from accounts.models import Customer
@@ -15,8 +14,6 @@ class CategoryNestedSerializer(ModelSerializer):
 
 
 class CustomerSerializer(ModelSerializer):
-    permission_classes = [AllowAny]
-
     class Meta:
         model = Customer
         fields = ["first_name", "last_name", "email", "is_staff"]
@@ -27,7 +24,6 @@ class CustomerSerializer(ModelSerializer):
 
 
 class ProductListSerializer(ModelSerializer):
-    permission_classes = [AllowAny]
     category = CategoryNestedSerializer(many=False)
 
     class Meta:
@@ -36,8 +32,6 @@ class ProductListSerializer(ModelSerializer):
 
 
 class ProductDetailSerializer(ModelSerializer):
-    permission_classes = [AllowAny]
-
     class Meta:
         model = Product
         fields = ["title", "price", "category"]

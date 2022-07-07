@@ -5,8 +5,8 @@ from rest_framework import permissions, routers
 from rest_framework_simplejwt.views import (TokenObtainPairView,
                                             TokenRefreshView)
 
-from api.views import (CategoryViewSet, ProductDetailView, ProductListView,
-                       UserViewSet, ProductUpdateView, ProductDeleteView)
+from api.views import (CategoryViewSet, ProductDeleteView, ProductDetailView,
+                       ProductListView, ProductUpdateView, UserViewSet)
 
 app_name = "api"
 
