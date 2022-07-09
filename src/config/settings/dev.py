@@ -5,17 +5,17 @@ DEBUG = True
 CURRENT_ENV = "DEV"
 print(CURRENT_ENV)
 
-if os.environ.get("GITHUB_WORKFLOW"):  # noqa
-    DATABASES = {
-        "default": {
-            "ENGINE": "django.db.backends.postgresql",
-            "NAME": "github_actions",
-            "USER": "postgres",
-            "PASSWORD": "postgres",
-            "HOST": "localhost",
-            "PORT": "5433",
-        },
-    }
+# if os.environ.get("GITHUB_WORKFLOW"):  # noqa
+DATABASES = {
+    "default": {
+        "ENGINE": "django.db.backends.postgresql",
+        "NAME": "github_actions",
+        "USER": "postgres",
+        "PASSWORD": "postgres",
+        "HOST": "127.0.0.1",
+        "PORT": "5432",
+    },
+}
 # else:
 #     DATABASES = {
 #         "default": {
@@ -27,10 +27,3 @@ if os.environ.get("GITHUB_WORKFLOW"):  # noqa
 #             "PORT": os.environ["POSTGRES_PORT"],    # noqa
 #         },
 #     }
-else:
-    DATABASES = {
-        "default": {
-            "ENGINE": "django.db.backends.sqlite3",
-            "NAME": BASE_DIR / "db.sqlite3",  # noqa
-        },
-    }
