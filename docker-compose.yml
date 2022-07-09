@@ -25,15 +25,38 @@ services:
       - 5432:5432
     volumes:
       - pg_data:/var/lib/postgresql/data
-#    environment:
-#      POSTGRES_PASSWORD: admin
-#      POSTGRES_USER: admin
-#      POSTGRES_DB: shop
+    env_file:
+      - .env
+
+  pgadmin:
+    container_name: pgadmin_container
+    image: dpage/pgadmin4
+    restart: always
+    env_file:
+      - .env
+    ports:
+      - "5001:80"
+    volumes:
+      - pgadmin_data:/var/lib/pgadmin
+    depends_on:
+      - postgres
+
+  mongodb:
+    image: arm64v8/mongo
+    ports:
+      - 27017:27017
+    container_name: mongo_db_container
+    command: ["--bind_ip_all"]
+    volumes:
+      - mongo_data:/data/db
+    restart: always
     env_file:
       - .env
 
 
 
-
 volumes:
   pg_data: { }
+  pgadmin_data: { }
+  mongo_data: { }
+
