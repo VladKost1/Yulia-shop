@@ -1,6 +1,7 @@
 from config.settings.base import *  # noqa
 import os
 
+from config.settings.base import BASE_DIR
 
 DEBUG = True
 

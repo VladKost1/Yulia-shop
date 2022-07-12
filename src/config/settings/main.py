@@ -1,6 +1,7 @@
 import os
 
 from config.settings.base import *
+from config.settings.base import BASE_DIR
 
 DEBUG = False
 
