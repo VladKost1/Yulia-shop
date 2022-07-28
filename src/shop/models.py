@@ -23,6 +23,7 @@ class Product(BaseModel):
     )
     title = models.CharField(verbose_name="Title", max_length=128)
     uuid = models.UUIDField(default=uuid.uuid4, db_index=True, unique=True)
+    short_description = models.TextField(verbose_name="Short Description",  max_length=200, blank=True, null=True)
     description = models.TextField(verbose_name="Description", blank=True, null=True)
     price = models.DecimalField(verbose_name="Price", max_digits=8, decimal_places=2, default=0)
     image = models.ImageField(default="default.png", upload_to="covers/", blank=True, null=True)

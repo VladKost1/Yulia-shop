@@ -1,35 +1,68 @@
 <!DOCTYPE html>
 {% load static %}
 <html lang="en">
-  <head>
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-        <link href="{% static 'vendor/bootstrap/css/account.css' %}" rel="stylesheet" >
-
-<!------ Include the above in your HEAD tag ---------->
-  </head>
+<head>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href="{% static 'vendor/bootstrap/css/account.css' %}" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'assets/css/fontawesome.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/templatemo-sixteen.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/owl.css' %}">
+    <link rel="stylesheet" href="{% static 'vendor/bootstrap/css/paginations.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/cart.css' %}">
+</head>
+ <header class="">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="/"><h2>Giulia <em>Shop</em></h2></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="/">Home
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+               <li class="nav-item">
+                <a class="nav-link" href="{% url 'accounts:register' %}">Sing Up</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+{% block content %}
+    {% if messages %}
+        {% for message in messages %}
+            <div class="alert alert-warning" role="alert">{{ message }}</div>
+        {% endfor %}
+    {% endif %}
 <div class="wrapper fadeInDown">
-  <div id="formContent">
-    <!-- Tabs Titles -->
+    <div id="formContent">
+        <!-- Tabs Titles -->
 
-    <!-- Icon -->
-    <div class="fadeIn first">
-      <img src="{% static 'Sample_User_Icon.png' %}" id="icon" alt="" />
+        <!-- Icon -->
+        <div class="fadeIn first">
+            <br>
+            <img src="https://www.pngmart.com/files/21/Account-Avatar-Profile-PNG-Photo.png" id="icon" alt="" style="width: 100px; height: 100px; "/>
+        </div>
+        <br>
+        <!-- Login Form -->
+        <form method="POST">
+            {% csrf_token %}
+            <input type="text" class="fadeIn second" name="username" placeholder="email" aria-describedby="emailHelp" >
+            <input type="text" class="fadeIn third" name="password" placeholder="password">
+            <input type="submit" value="Log in" class="fadeIn third">
+        </form>
+
+        <div id="formFooter">
+            <a class="underlineHover" href="{% url 'accounts:register' %}">Sing Up</a>
+        </div>
     </div>
-
-    <!-- Login Form -->
-    <form>
-      <input type="text" id="login" class="fadeIn second" name="login" placeholder="login">
-      <input type="text" id="password" class="fadeIn third" name="login" placeholder="password">
-      <input type="submit" class="fadeIn fourth" value="Log In">
-    </form>
-
-    <!-- Remind Passowrd -->
-    <div id="formFooter">
-      <a class="underlineHover" href="#">Forgot Password?</a>
-    </div>
-
-  </div>
 </div>
+{% endblock %}
+
 
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

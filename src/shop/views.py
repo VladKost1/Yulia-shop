@@ -40,11 +40,6 @@ class CategorySelectView(ListView):
         return context
 
 
-class AccountView(ListView):
-    template_name = "account.html"
-    model = Customer
-
-
 def location(request):
     return render(request, "location.html")
 
@@ -62,6 +57,8 @@ def cart(request):
 
     context = {"items": items, "order": order, "cartItems": cartItems}
     return render(request, "cart.html", context)
+
+
 
 
 # def updateItem(request):

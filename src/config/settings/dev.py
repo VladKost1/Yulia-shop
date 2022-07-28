@@ -1,9 +1,22 @@
 from config.settings.base import *  # noqa
+import os
+
+from config.settings.base import BASE_DIR
 
 DEBUG = True
 
+ALLOWED_HOSTS = [
+    "127.0.0.1",
+]
+
 CURRENT_ENV = "DEV"
 print(CURRENT_ENV)
+
+MEDIA_ROOT = os.path.join(BASE_DIR, "media")
+MEDIA_URL = "/media/"
+
+STATICFILES_DIRS = [os.path.join(BASE_DIR, "static")]
+STATIC_URL = "/static/"
 
 # if os.environ.get("GITHUB_WORKFLOW"):  # noqa
 DATABASES = {

@@ -11,26 +11,26 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 
-    <script type="text/javascript">
-            var user = '{{request.user}}'
-            function getToken(name) {
-		    var cookieValue = null;
-		    if (document.cookie && document.cookie !== '') {
-		        var cookies = document.cookie.split(';');
-		        for (var i = 0; i < cookies.length; i++) {
-		            var cookie = cookies[i].trim();
-		            // Does this cookie string begin with the name we want?
-		            if (cookie.substring(0, name.length + 1) === (name + '=')) {
-		                cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
-		                break;
-		            }
-		        }
-		    }
-		    return cookieValue;
-		}
-		var csrftoken = getToken('csrftoken')
+<!--    <script type="text/javascript">-->
+<!--            var user = '{{request.user}}'-->
+<!--            function getToken(name) {-->
+<!--		    var cookieValue = null;-->
+<!--		    if (document.cookie && document.cookie !== '') {-->
+<!--		        var cookies = document.cookie.split(';');-->
+<!--		        for (var i = 0; i < cookies.length; i++) {-->
+<!--		            var cookie = cookies[i].trim();-->
+<!--		            // Does this cookie string begin with the name we want?-->
+<!--		            if (cookie.substring(0, name.length + 1) === (name + '=')) {-->
+<!--		                cookieValue = decodeURIComponent(cookie.substring(name.length + 1));-->
+<!--		                break;-->
+<!--		            }-->
+<!--		        }-->
+<!--		    }-->
+<!--		    return cookieValue;-->
+<!--		}-->
+<!--		var csrftoken = getToken('csrftoken')-->
 
-      </script>
+<!--      </script>-->
 
     <title>Yulia-shop</title>
 
@@ -98,7 +98,7 @@ https://templatemo.com/tm-546-sixteen-clothing
                 <a class="nav-link" href="{% url 'shop:cart' %}">Cart 🛒</a>
               </li>
                <li class="nav-item">
-                <a class="nav-link" href="{% url 'shop:account' %}">Account</a>
+                <a class="nav-link" href="{% url 'accounts:login' %}">Account</a>
               </li>
             </ul>
           </div>
@@ -110,22 +110,22 @@ https://templatemo.com/tm-546-sixteen-clothing
     <!-- Banner Starts Here -->
     <div class="banner header-text">
       <div class="owl-banner owl-carousel">
-        <div class="banner-item-01">
+        <div class="banner-item-01" style="background-image: url(/static/assets/images/slide_1-2.jpg)">
           <div class="text-content">
-            <h4>Best Offer</h4>
-            <h2>New Arrivals On Sale</h2>
+            <h4>перейти в каталог</h4>
+            <h2>Iphone</h2>
           </div>
         </div>
-        <div class="banner-item-02">
+        <div class="banner-item-02" style="background-image: url(/static/assets/images/slide_1.jpg)">
           <div class="text-content">
-            <h4>Flash Deals</h4>
-            <h2>Get your best products</h2>
+            <h4>Oh. So. Pro.</h4>
+            <h2>iPhone 13 Pro</h2>
           </div>
         </div>
-        <div class="banner-item-03">
+        <div class="banner-item-03" style="background-image: url(/static/assets/images/slide_3.jpg)">
           <div class="text-content">
-            <h4>Last Minute</h4>
-            <h2>Grab last minute deals</h2>
+            <h4>Pro anywhere.</h4>
+            <h2>Macbook Pro 13"</h2>
           </div>
         </div>
       </div>
@@ -153,7 +153,7 @@ https://templatemo.com/tm-546-sixteen-clothing
                 <h6>{{ product.price }} ₴</h6>
                 <p>{{ product.description }}</p>
                   <button data-product={{product.id}} data-action="add" class="btn btn-outline-secondary add-btn btn-lg update-cart">Add to Cart</button>
-                <span>Category: {{ product.category }}</span>
+                <a href="{% url 'shop:product_details' uuid=product.uuid  %}"><span>More details</span></a>
               </div>
             </div>
           </div>
@@ -234,7 +234,7 @@ https://templatemo.com/tm-546-sixteen-clothing
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque corporis amet elite author nulla.</p>
                 </div>
                 <div class="col-md-4">
-                  <a href="#" class="filled-button">Purchase Now</a>
+                  <a href="https://www.youtube.com/watch?v=6i1LrJhJNlQ&ab_channel=MarioandCompany" class="filled-button">Purchase Now</a>
                 </div>
               </div>
             </div>
@@ -274,7 +274,6 @@ https://templatemo.com/tm-546-sixteen-clothing
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-
 
   </body>
 
