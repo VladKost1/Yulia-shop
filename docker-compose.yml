@@ -7,13 +7,14 @@ services:
     working_dir: /Yulia_shop
     restart: always
     command:
-      - ./commands/start_server.sh
+      - ./commands/start_server_${MODE}.sh
     ports:
       - ${LOCAL_PORT}:${WSGI_PORT}
     volumes:
       - ./src:/Yulia_shop/src
       - static_content:/Yulia_shop/src/static
       - media_content:/Yulia_shop/src/media
+    entrypoint: ["/bin/bash", "./commands/start_server_${MODE}.sh"]
     env_file:
       - .env
     depends_on:
@@ -66,6 +67,47 @@ services:
       - .env
     depends_on:
       - backend
+
+#  rabbitmq:
+#      image: rabbitmq:3.8-management-alpine
+#      env_file:
+#        - .env
+#      restart: on-failure
+#
+#  redis:
+#    image: redis
+#    env_file:
+#      - .env
+#    restart: on-failure
+#    depends_on:
+#      - backend
+
+#  celery:
+#    build: ./
+#    command:
+#      - ./commands/start_celery.sh
+#    restart: always
+#    volumes:
+#      - ./src:/quizzz
+#      - ./commands:/quizzz/commands
+#    env_file:
+#      - .env
+#    depends_on:
+#      - redis
+#      - backend
+
+#  celerybeat:
+#    env_file: .env
+#    build: .
+#    container_name: celerybeat
+#    command: ./commands/start_celerybeat.sh
+#    restart: on-failure
+#    volumes:
+#      - ./src:/quizzz
+#      - ./commands:/quizzz/commands
+#    depends_on:
+#      - redis
+#      - celery
 
 volumes:
   pg_data: { }
