@@ -1,0 +1,34 @@
+{% extends "index.html" %}
+{% load static %}
+<div class="container">
+        {% block content %}
+        <div class="row">
+           <div class="col-md-12">
+            <div class="section-heading">
+              <h2>Products</h2>
+              <a href="/">view all products <i class="fa fa-angle-right"></i></a>
+            </div>
+          </div>
+           <h1></h1>
+          {% for product in all_products %}
+          <div class="col-md-4">
+            <div class="product-item">
+              {% if product.image %}
+                <img src="{{ product.image.url }}" alt=""/>
+              {% endif %}
+              <div class="down-content">
+                <a href="{% url 'shop:product_details' uuid=product.uuid  %}"><h4>{{ product.title }}</h4></a>
+                <h6>{{ product.price }} ₴</h6>
+                <p>{{ product.short_description }}</p>
+                <form method="POST" action="{% url 'shop:add_cart' product=product.uuid %}" >
+                      {% csrf_token %}
+                  <button data-action="" class="btn btn-outline-secondary add-btn btn-lg update-cart">Add to Cart</button>
+                  </form>
+                <a href="{% url 'shop:product_details' uuid=product.uuid  %}"><span>More details</span></a>
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+        {% endblock content %}
+      </div>

@@ -1,13 +1,22 @@
+from django.conf import settings
+from django.conf.urls.static import static
 from django.urls import path
 
-from shop.views import (AccountView, BasketDetailView, CategoryDetailView,
-                        ProductDetailView)
+from shop import views
+from shop.views import (CategorySelectView, CategoryView,
+                        ProductDetailView, cart, location, checkout, add_cart)
+
+app_name = "shop"
 
 urlpatterns = [
-    # path("<uuid:uuid>/", ProductDetailView.as_view(), name="product_details"),
-    path("products/", ProductDetailView.as_view(), name="products"),
-    path("category/", CategoryDetailView.as_view(), name="category"),
-    path("account/", AccountView.as_view(), name="account"),
-    path("basket/", BasketDetailView.as_view(), name="basket"),
-    # path("")
+    path("<uuid:uuid>/", ProductDetailView.as_view(), name="product_details"),
+    path("categories/", CategoryView.as_view(), name="categories"),
+    path("category/<slug:cat_slug>/", CategorySelectView.as_view(), name="category"),
+    path("cart/", views.cart, name="cart"),
+    path("add-cart/<uuid:product>/", views.add_cart, name="add_cart"),
+    path("delet-cart/", views.delete_cart, name="delete_cart"),
+    # path("clear-cart/<uuid:product>/", ClearItemCart.as_view(), name="clear_cart"),
+    path("location/", views.location, name="location"),
+    path("checkout/", views.checkout, name="checkout"),
+
 ]

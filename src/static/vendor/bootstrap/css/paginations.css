@@ -1,0 +1,24 @@
+.paginate{position: relative;}
+.pagination>li>a, .pagination>li>span {
+  padding: 6px 16px;
+  margin-left: 3px;
+  margin-right: 3px;
+  line-height: 1.42857143;
+  color: #337ab7;
+  background-color: #ECF0F1;
+  border: 0px;
+  font-size: 20px;
+}
+.pagination>li>a.page-prev, .pagination>li>span.page-prev,.pagination>li>a.page-next, .pagination>li>span.page-next {
+  background-color: #f33f3f;
+  color: #FFF;
+}
+.pagination>li>a.page-prev, .pagination>li>span.page-prev{
+  position: absolute;
+  right: 90px;
+
+}
+.pagination>li>a.page-next, .pagination>li>span.page-next{
+  position: absolute;
+  right: 20px;
+}

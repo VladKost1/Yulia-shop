@@ -23,7 +23,7 @@ class Customer(AbstractBaseUser, PermissionsMixin):
             "Designates whether this user should be treated as active. " "Unselect this instead of deleting accounts."
         ),
     )
-    photo = models.ImageField(upload_to="media/users_photo/", null=True, blank=True)
+    photo = models.ImageField(upload_to="users_photo/", null=True, blank=True)
 
     objects = CustomerManager()
     USERNAME_FIELD = "email"
