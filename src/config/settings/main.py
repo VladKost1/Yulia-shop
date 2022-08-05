@@ -7,6 +7,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     "127.0.0.1",
+    "ec2-18-169-131-9.eu-west-2.compute.amazonaws.com"
 ]
 
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
