@@ -6,7 +6,7 @@ from config.settings.base import BASE_DIR
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    "127.0.0.1",
+    "*",
 ]
 
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")

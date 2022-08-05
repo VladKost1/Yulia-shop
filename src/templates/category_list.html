@@ -19,15 +19,12 @@
               <div class="down-content">
                 <a href="{% url 'shop:product_details' uuid=product.uuid  %}"><h4>{{ product.title }}</h4></a>
                 <h6>{{ product.price }} ₴</h6>
-                <p>{{ product.description }}</p>
-                <ul class="stars">
-                  <li><i class="fa fa-star"></i></li>
-                  <li><i class="fa fa-star"></i></li>
-                  <li><i class="fa fa-star"></i></li>
-                  <li><i class="fa fa-star"></i></li>
-                  <li><i class="fa fa-star"></i></li>
-                </ul>
-                <span>Quantity in store: {{ product.quantity }}</span>
+                <p>{{ product.short_description }}</p>
+                <form method="POST" action="{% url 'shop:add_cart' product=product.uuid %}" >
+                      {% csrf_token %}
+                  <button data-action="" class="btn btn-outline-secondary add-btn btn-lg update-cart">Add to Cart</button>
+                  </form>
+                <a href="{% url 'shop:product_details' uuid=product.uuid  %}"><span>More details</span></a>
               </div>
             </div>
           </div>

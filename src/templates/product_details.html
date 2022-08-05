@@ -92,9 +92,12 @@ https://templatemo.com/tm-546-sixteen-clothing
               <h4>{{product.title}}</h4>
               <p>{{ product.description }}</p>
               <ul class="social-icons">
-                <h4>{{product.price}} ₴</h4>
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <h4>Price - {{product.price}} ₴</h4>
+                <form method="POST">
+                      {% csrf_token %}
+                  <a href="{% url 'shop:add_cart' product=product.uuid %}" class="filled-button">Add to Cart</a>
+                  </form>
+
               </ul>
             </div>
           </div>
