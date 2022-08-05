@@ -11,9 +11,22 @@
 				<table class="table">
 					<tr>
 						<th><h5>Items: <strong>{{order.get_cart_items}}</strong></h5></th>
-						<th><h5>Total:<strong> ${{order.get_cart_total|floatformat:2}}</strong></h5></th>
+						<th><h5>Order number: <strong>{{order.id}}</strong></h5></th>
+						<th><h5>Total:<strong> ₴{{order.get_cart_total|floatformat:2}}</strong></h5></th>
 						<th>
-							<a  style="float:right; margin:5px;" class="btn btn-success btn-lg" href="/">Checkout</a>
+							<a  style="float:right; margin:5px; border-radius: 8px;" class="btn btn-success btn-lg" href="{% url 'shop:checkout' %}">Checkout</a>
+						</th>
+
+						<th>
+							<form method="POST" action="{% url 'shop:delete_cart'%}">
+								{% csrf_token %}
+								<button data-product="" data-action="" style="float:right; margin:5px; border-radius: 8px;"
+										class="btn btn-danger add-btn btn-lg delete-cart">Clear Cart
+								</button>
+							</form>
+						</th>
+						<th>
+
 						</th>
 					</tr>
 				</table>
@@ -35,7 +48,7 @@
 					<div style="flex:2"><img class="row-image" src="{{ item.product.image.url}}"></div>
 					{% endif %}
 					<div style="flex:2"><p>{{item.product.title}}</p></div>
-					<div style="flex:1"><p>${{item.product.price|floatformat:2}}</p></div>
+					<div style="flex:1"><p>₴{{item.product.price|floatformat:2}}</p></div>
 					<div style="flex:1">
 						<p class="quantity">{{item.quantity}}</p>
 						<div class="quantity">
@@ -43,7 +56,7 @@
 							<img data-product="{{item.product.id}}" data-action="remove" class="chg-quantity update-cart" src="{% static 'assets/images/arrow-down.png' %}">
 						</div>
 					</div>
-					<div style="flex:1"><p>${{item.get_total|floatformat:2}}</p></div>
+					<div style="flex:1"><p>₴{{item.get_total|floatformat:2}}</p></div>
 				</div>
 				{% endfor %}
 			</div>

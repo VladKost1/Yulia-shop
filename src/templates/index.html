@@ -151,8 +151,11 @@ https://templatemo.com/tm-546-sixteen-clothing
               <div class="down-content">
                 <a href="{% url 'shop:product_details' uuid=product.uuid  %}"><h4>{{ product.title }}</h4></a>
                 <h6>{{ product.price }} ₴</h6>
-                <p>{{ product.description }}</p>
-                  <button data-product={{product.id}} data-action="add" class="btn btn-outline-secondary add-btn btn-lg update-cart">Add to Cart</button>
+                <p>{{ product.short_description }}</p>
+                  <form method="POST" action="{% url 'shop:add_cart' product=product.uuid %}" >
+                      {% csrf_token %}
+                  <button data-action="" class="btn btn-outline-secondary add-btn btn-lg update-cart">Add to Cart</button>
+                  </form>
                 <a href="{% url 'shop:product_details' uuid=product.uuid  %}"><span>More details</span></a>
               </div>
             </div>
@@ -210,7 +213,7 @@ https://templatemo.com/tm-546-sixteen-clothing
                 <li><a href="#">Corporis, omnis doloremque</a></li>
                 <li><a href="#">Non cum id reprehenderit</a></li>
               </ul>
-              <a href="category.html" class="filled-button">Read More</a>
+              <a href=" " class="filled-button">Read More</a>
             </div>
           </div>
           <div class="col-md-6">
@@ -250,7 +253,7 @@ https://templatemo.com/tm-546-sixteen-clothing
             <div class="inner-content">
               <p>Copyright &copy; 2022 Giulia Shop.
             
-            - Design: <a rel="nofollow noopener" href="https://templatemo.com" target="_blank">TemplateMo</a></p>
+            - Design: <a rel="nofollow noopener" href="" target="_blank">TemplateMo</a></p>
             </div>
           </div>
         </div>
