@@ -1,1 +1,1081 @@
-[{"model": "admin.logentry", "pk": 1, "fields": {"action_time": "2022-06-29T20:03:40.002Z", "user": 1, "content_type": 7, "object_id": "1", "object_repr": "Smartphone", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 2, "fields": {"action_time": "2022-06-29T20:04:09.606Z", "user": 1, "content_type": 7, "object_id": "2", "object_repr": "Laptop", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 3, "fields": {"action_time": "2022-06-29T20:04:43.983Z", "user": 1, "content_type": 7, "object_id": "3", "object_repr": "Computer", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 4, "fields": {"action_time": "2022-06-29T20:05:25.112Z", "user": 1, "content_type": 6, "object_id": "1", "object_repr": "Iphone 11Smartphone", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 5, "fields": {"action_time": "2022-06-29T20:05:49.818Z", "user": 1, "content_type": 6, "object_id": "2", "object_repr": "Iphone 12Smartphone", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 6, "fields": {"action_time": "2022-06-29T20:06:21.069Z", "user": 1, "content_type": 6, "object_id": "3", "object_repr": "Iphone SESmartphone", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 7, "fields": {"action_time": "2022-06-29T20:06:44.469Z", "user": 1, "content_type": 6, "object_id": "4", "object_repr": "Iphone 13Smartphone", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 8, "fields": {"action_time": "2022-06-29T20:07:15.415Z", "user": 1, "content_type": 6, "object_id": "5", "object_repr": "Macbook AirLaptop", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 9, "fields": {"action_time": "2022-06-29T20:07:52.420Z", "user": 1, "content_type": 6, "object_id": "6", "object_repr": "Macbook Pro 13Laptop", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 10, "fields": {"action_time": "2022-06-29T20:08:58.415Z", "user": 1, "content_type": 6, "object_id": "7", "object_repr": "iMacComputer", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 11, "fields": {"action_time": "2022-06-29T20:10:04.915Z", "user": 1, "content_type": 6, "object_id": "8", "object_repr": "iMacComputer", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 12, "fields": {"action_time": "2022-06-29T20:10:52.090Z", "user": 1, "content_type": 6, "object_id": "9", "object_repr": "iMacComputer", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 13, "fields": {"action_time": "2022-06-29T20:10:58.653Z", "user": 1, "content_type": 6, "object_id": "8", "object_repr": "iMacComputer", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"}}, {"model": "admin.logentry", "pk": 14, "fields": {"action_time": "2022-06-29T20:11:01.857Z", "user": 1, "content_type": 6, "object_id": "7", "object_repr": "iMacComputer", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"}}, {"model": "admin.logentry", "pk": 15, "fields": {"action_time": "2022-06-29T20:11:56.505Z", "user": 1, "content_type": 6, "object_id": "5", "object_repr": "Macbook AirLaptop", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"}}, {"model": "admin.logentry", "pk": 16, "fields": {"action_time": "2022-06-29T20:12:23.217Z", "user": 1, "content_type": 6, "object_id": "6", "object_repr": "Macbook Pro 13Laptop", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"}}, {"model": "admin.logentry", "pk": 17, "fields": {"action_time": "2022-06-29T20:14:09.729Z", "user": 1, "content_type": 6, "object_id": "4", "object_repr": "Iphone 13Smartphone", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"}}, {"model": "admin.logentry", "pk": 18, "fields": {"action_time": "2022-06-29T20:15:14.449Z", "user": 1, "content_type": 6, "object_id": "1", "object_repr": "Iphone 11Smartphone", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"}}, {"model": "admin.logentry", "pk": 19, "fields": {"action_time": "2022-06-29T20:15:18.078Z", "user": 1, "content_type": 6, "object_id": "3", "object_repr": "Iphone SESmartphone", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"}}, {"model": "admin.logentry", "pk": 20, "fields": {"action_time": "2022-06-29T20:15:21.112Z", "user": 1, "content_type": 6, "object_id": "2", "object_repr": "Iphone 12Smartphone", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"}}, {"model": "admin.logentry", "pk": 21, "fields": {"action_time": "2022-06-29T20:20:37.084Z", "user": 1, "content_type": 6, "object_id": "10", "object_repr": "Macbook Air M2Laptop", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 22, "fields": {"action_time": "2022-06-29T20:24:38.723Z", "user": 1, "content_type": 6, "object_id": "10", "object_repr": "Macbook Air M2Laptop", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Price\"]}}]"}}, {"model": "admin.logentry", "pk": 23, "fields": {"action_time": "2022-06-30T18:24:18.268Z", "user": 1, "content_type": 7, "object_id": "4", "object_repr": "apple watch", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 24, "fields": {"action_time": "2022-06-30T18:25:15.315Z", "user": 1, "content_type": 6, "object_id": "11", "object_repr": "Apple Watch 7apple watch", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 25, "fields": {"action_time": "2022-06-30T18:25:36.208Z", "user": 1, "content_type": 9, "object_id": "1", "object_repr": "OrderItem object (1)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 26, "fields": {"action_time": "2022-06-30T18:25:45.074Z", "user": 1, "content_type": 9, "object_id": "2", "object_repr": "OrderItem object (2)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 27, "fields": {"action_time": "2022-07-01T08:09:43.885Z", "user": 1, "content_type": 7, "object_id": "4", "object_repr": "Apple watch", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"}}, {"model": "admin.logentry", "pk": 28, "fields": {"action_time": "2022-07-01T08:10:57.672Z", "user": 1, "content_type": 6, "object_id": "12", "object_repr": "Apple watch 7 (42mm)Apple watch", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 29, "fields": {"action_time": "2022-07-01T08:11:41.500Z", "user": 1, "content_type": 6, "object_id": "11", "object_repr": "Apple Watch 7 (45 mm)Apple watch", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Description\", \"Price\"]}}]"}}, {"model": "admin.logentry", "pk": 30, "fields": {"action_time": "2022-07-01T08:12:42.934Z", "user": 1, "content_type": 6, "object_id": "11", "object_repr": "Apple Watch 7Apple watch", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"}}, {"model": "admin.logentry", "pk": 31, "fields": {"action_time": "2022-07-01T08:12:48.534Z", "user": 1, "content_type": 6, "object_id": "12", "object_repr": "Apple watch 7Apple watch", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"}}, {"model": "admin.logentry", "pk": 32, "fields": {"action_time": "2022-07-01T08:14:26.909Z", "user": 1, "content_type": 6, "object_id": "11", "object_repr": "Apple Watch 7Apple watch", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"}}, {"model": "admin.logentry", "pk": 33, "fields": {"action_time": "2022-07-01T08:15:18.828Z", "user": 1, "content_type": 6, "object_id": "11", "object_repr": "Apple Watch 7Apple watch", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"}}, {"model": "admin.logentry", "pk": 34, "fields": {"action_time": "2022-07-01T19:52:47.047Z", "user": 1, "content_type": 9, "object_id": "3", "object_repr": "OrderItem object (3)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 35, "fields": {"action_time": "2022-07-03T19:18:46.406Z", "user": 1, "content_type": 6, "object_id": "13", "object_repr": "ifghfghfSmartphone", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 36, "fields": {"action_time": "2022-07-03T19:18:54.034Z", "user": 1, "content_type": 6, "object_id": "13", "object_repr": "ifghfghfSmartphone", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 37, "fields": {"action_time": "2022-07-05T12:13:46.595Z", "user": 1, "content_type": 7, "object_id": "5", "object_repr": "Computer", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 38, "fields": {"action_time": "2022-07-05T12:15:54.422Z", "user": 1, "content_type": 6, "object_id": "14", "object_repr": "iMac M1Computer", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 39, "fields": {"action_time": "2022-07-05T12:16:14.017Z", "user": 1, "content_type": 6, "object_id": "15", "object_repr": "iMacComputer", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 40, "fields": {"action_time": "2022-07-05T12:16:22.446Z", "user": 1, "content_type": 6, "object_id": "15", "object_repr": "iMac M1Computer", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"}}, {"model": "admin.logentry", "pk": 41, "fields": {"action_time": "2022-07-05T12:16:47.432Z", "user": 1, "content_type": 6, "object_id": "16", "object_repr": "iMacComputer", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 42, "fields": {"action_time": "2022-07-05T12:16:56.282Z", "user": 1, "content_type": 6, "object_id": "16", "object_repr": "iMac M1Computer", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"}}, {"model": "admin.logentry", "pk": 43, "fields": {"action_time": "2022-07-05T13:05:54.580Z", "user": 1, "content_type": 6, "object_id": "17", "object_repr": "iMacComputer", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 44, "fields": {"action_time": "2022-07-05T13:06:13.075Z", "user": 1, "content_type": 6, "object_id": "17", "object_repr": "iMac M1Computer", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Description\"]}}]"}}, {"model": "sessions.session", "pk": "410jtbj8jx7ahuwsk95anbeud5sugjnr", "fields": {"session_data": ".eJxVjDkOwjAUBe_iGln52RxT0nMG62_GAWRLcVIh7g6RUkD7Zua9TMBtTWGruoRZzNmAOf1uhPzQvAO5Y74VyyWvy0x2V-xBq70W0eflcP8OEtb0rTtWBXQNC4PH6NELiCMEBlDn4ogQpwFRmrGDIbbU955AyLV-8sqdeX8AEg04uA:1o8e4t:AbDkTfvBFxi-7Blg6TLVCCYk26WZwysLOJJUGySz7HI", "expire_date": "2022-07-19T08:38:39.009Z"}}, {"model": "accounts.customer", "pk": 1, "fields": {"password": "pbkdf2_sha256$260000$37pwu5sw9XXd3rsKvUkzNi$yf77CqvY5259jbzcAqS/OiNFLc3HAfDbGwT0ljPNhZo=", "last_login": "2022-07-05T08:38:39.007Z", "is_superuser": true, "email": "vladkostiuk2@gmail.com", "first_name": "", "last_name": "", "birthdate": null, "is_staff": true, "is_active": true, "photo": "", "groups": [], "user_permissions": []}}, {"model": "shop.product", "pk": 1, "fields": {"create_datetime": "2022-06-29T20:05:25.110Z", "last_update": "2022-07-05T11:25:18.985Z", "category": 1, "title": "Iphone 11", "uuid": "10d504ec-0f64-49a6-af10-4e5a6e89a80e", "description": "Liquid Retina HD display.\r\n6.1\" Full-Front Multi-Touch IPS LCD\r\n1792×828 pixels, 326 ppi\r\nContrast ratio 1400:1 (typical)\r\nTrue Tone Technology.\r\nWide color gamut (P3)\r\nHaptic feedback when pressed\r\nBrightness up to 625 cd/m² (typical)", "price": "17000.00", "image": "covers/iphone11-black-select-2019_GEO_EMEA_VyjUBWf.png"}}, {"model": "shop.product", "pk": 2, "fields": {"create_datetime": "2022-06-29T20:05:49.815Z", "last_update": "2022-07-05T12:53:43.350Z", "category": 1, "title": "Iphone 12", "uuid": "41679b22-a8dd-443e-b3f3-4e5017e3cfac", "description": "Liquid Retina HD display.\r\n6.1\" Full-Front Multi-Touch IPS LCD\r\n1792×828 pixels, 326 ppi\r\nContrast ratio 1400:1 (typical)\r\nTrue Tone Technology.\r\nWide color gamut (P3)\r\nHaptic feedback when pressed\r\nBrightness up to 625 cd/m² (typical)", "price": "24000.00", "image": "covers/iphone-12-purple-select-2021_4oQJQjg.png"}}, {"model": "shop.product", "pk": 3, "fields": {"create_datetime": "2022-06-29T20:06:21.065Z", "last_update": "2022-06-29T20:15:18.076Z", "category": 1, "title": "Iphone SE", "uuid": "6d6e9c08-1ebc-4c50-a43c-6b7d0c59c8cd", "description": "Liquid Retina HD display.\r\n6.1\" Full-Front Multi-Touch IPS LCD\r\n1792×828 pixels, 326 ppi\r\nContrast ratio 1400:1 (typical)\r\nTrue Tone Technology.\r\nWide color gamut (P3)\r\nHaptic feedback when pressed\r\nBrightness up to 625 cd/m² (typical)", "price": "15000.00", "image": "covers/iphone-se-red-select-202203_sqQbvUT.png"}}, {"model": "shop.product", "pk": 4, "fields": {"create_datetime": "2022-06-29T20:06:44.465Z", "last_update": "2022-06-29T20:14:09.727Z", "category": 1, "title": "Iphone 13", "uuid": "269b4278-87da-424e-b515-ef0485ace11f", "description": "New Ultra Wide camera reveals more detail in the dark areas of your photos\r\nNew Wide camera captures 47% more light for better photos and videos\r\nNew sensor-shift optical image stabilization keeps shots steady even when you’re not", "price": "32000.00", "image": "covers/iphone-13-green-select_693DhsA.png"}}, {"model": "shop.product", "pk": 5, "fields": {"create_datetime": "2022-06-29T20:07:15.412Z", "last_update": "2022-07-05T11:15:32.005Z", "category": 2, "title": "Macbook Air", "uuid": "dbcfe702-28f4-439f-be06-ecdb968cc4d8", "description": "8-Core CPU\r\n8GB Unified Memory\r\n256GB SSD Storage¹\r\n16-core Neural Engine\r\n13-inch Retina display with True Tone\r\nTwo Thunderbolt / USB 4 ports\r\nMagic Keyboard with Touch ID\r\nForce Touch trackpad\r\n30W USB-C Power Adapter", "price": "30000.00", "image": "covers/macbook-air-space-gray-select-201810_cdRAvpQ.jpeg"}}, {"model": "shop.product", "pk": 6, "fields": {"create_datetime": "2022-06-29T20:07:52.417Z", "last_update": "2022-06-29T20:12:23.215Z", "category": 2, "title": "Macbook Pro 13", "uuid": "2c6400d9-a075-480d-bb08-5662332b2084", "description": "8-Core CPU\r\n8GB Unified Memory\r\n512GB SSD Storage¹\r\n16-core Neural Engine\r\n13-inch Retina display with True Tone\r\nTwo Thunderbolt / USB 4 ports\r\nMagic Keyboard\r\nTouch Bar and Touch ID\r\nForce Touch trackpad", "price": "42000.00", "image": "covers/71_600.jpeg"}}, {"model": "shop.product", "pk": 10, "fields": {"create_datetime": "2022-06-29T20:20:37.080Z", "last_update": "2022-06-29T20:24:38.720Z", "category": 2, "title": "Macbook Air M2", "uuid": "fdf281be-08b8-4f5c-bd9d-7f7bc714c999", "description": "13.6” Liquid Retina display1\r\nApple M2 chip 8-core CPU\r\n\r\nUp to 10-coreGPU\r\nUp to 24GB unified memory\r\n\r\n2TB Maximum configurable storage\r\nUp to 18 hours battery life4\r\n\r\n1080p FaceTime HD camera\r\n\r\nThree-mic array\r\nFour-speaker sound system\r\nwith Spatial Audio\r\n\r\n2.7 lb.\r\nWeight\r\nTouch ID", "price": "52000.00", "image": "covers/compare_mba_m2__eyi7f28aeg02_large_2x.png"}}, {"model": "shop.product", "pk": 11, "fields": {"create_datetime": "2022-06-30T18:25:15.314Z", "last_update": "2022-07-01T08:15:18.824Z", "category": 4, "title": "Apple Watch 7", "uuid": "1a3cc756-bf68-4488-875b-9feb3e4c7fb2", "description": "Apple Watch 45 mm\r\nBlue aluminum case • Sport band\r\n€529.00\r\nThe aluminum cabinet is lightweight and made of high-quality 100% recycled aluminum.\r\n\r\nThe sport band is made of hardwearing yet surprisingly soft, high-quality fluoroelastomer, and has an innovative pin closure.", "price": "13000.00", "image": "covers/sdfdsff.jpeg"}}, {"model": "shop.product", "pk": 12, "fields": {"create_datetime": "2022-07-01T08:10:57.668Z", "last_update": "2022-07-01T08:12:48.533Z", "category": 4, "title": "Apple watch 7", "uuid": "78d1b7d1-efd8-4809-b22e-6a76a2e11070", "description": "Apple Watch\r\nBlue aluminum case • Sport band\r\n€529.00\r\nThe aluminum cabinet is lightweight and made of high-quality 100% recycled aluminum.\r\n\r\nThe sport band is made of hardwearing yet surprisingly soft, high-quality fluoroelastomer, and has an innovative pin closure.", "price": "16000.00", "image": "covers/MKU83_VW_34FRwatch-41-alum-blue-cell-7s_VW_34FR_WF_CO.jpeg"}}, {"model": "shop.product", "pk": 14, "fields": {"create_datetime": "2022-07-05T12:15:54.415Z", "last_update": "2022-07-05T12:15:54.415Z", "category": 5, "title": "iMac M1", "uuid": "f2bf6241-6d5a-4518-b776-f291b4ac245a", "description": "Cumpara Sistem Desktop PC iMac 24\" (2021) cu procesor Apple M1, 24\", Retina 4.5K, 8GB, 512GB SSD, 8-core GPU, Green, INT KB de la eMAG!", "price": "45000.00", "image": "covers/imac-24-green-selection-hero-202104_uohTzL0.jpeg"}}, {"model": "shop.product", "pk": 15, "fields": {"create_datetime": "2022-07-05T12:16:14.013Z", "last_update": "2022-07-05T12:16:22.445Z", "category": 5, "title": "iMac M1", "uuid": "10751236-870f-4f2a-a34a-25644607dd7e", "description": "Cumpara Sistem Desktop PC iMac 24\" (2021) cu procesor Apple M1, 24\", Retina 4.5K, 8GB, 512GB SSD, 8-core GPU, Green, INT KB de la eMAG!", "price": "45000.00", "image": "covers/imac-24-purple-selection-hero-202104_AsV89pz.jpeg"}}, {"model": "shop.product", "pk": 17, "fields": {"create_datetime": "2022-07-05T13:05:54.578Z", "last_update": "2022-07-05T13:06:13.073Z", "category": 5, "title": "iMac M1", "uuid": "4f86ff89-7cff-47a5-a2ae-5b31f8e0ea29", "description": "Cumpara Sistem Desktop PC iMac 24\" (2021) cu procesor Apple M1, 24\", Retina 4.5K, 8GB, 512GB SSD, 8-core GPU, Green, INT KB de la eMAG!", "price": "0.00", "image": "covers/imac-24-pink-selection-hero-202104_VXuQkIe.jpeg"}}, {"model": "shop.category", "pk": 1, "fields": {"create_datetime": "2022-06-29T20:03:40.001Z", "last_update": "2022-06-29T20:03:40.001Z", "name": "Smartphone", "description": null, "slug": "smartphone"}}, {"model": "shop.category", "pk": 2, "fields": {"create_datetime": "2022-06-29T20:04:09.605Z", "last_update": "2022-06-29T20:04:09.605Z", "name": "Laptop", "description": null, "slug": "laptop"}}, {"model": "shop.category", "pk": 4, "fields": {"create_datetime": "2022-06-30T18:24:18.266Z", "last_update": "2022-07-01T08:09:43.883Z", "name": "Apple watch", "description": null, "slug": "watch"}}, {"model": "shop.category", "pk": 5, "fields": {"create_datetime": "2022-07-05T12:13:46.593Z", "last_update": "2022-07-05T12:13:46.593Z", "name": "Computer", "description": null, "slug": "computer"}}, {"model": "shop.order", "pk": 1, "fields": {"create_datetime": "2022-06-30T18:23:41.539Z", "last_update": "2022-06-30T18:23:41.539Z", "customer": 1, "complete": false, "transaction_id": null}}, {"model": "shop.orderitem", "pk": 1, "fields": {"create_datetime": "2022-06-30T18:25:36.207Z", "last_update": "2022-06-30T18:25:36.207Z", "product": 2, "order": 1, "quantity": 2}}, {"model": "shop.orderitem", "pk": 2, "fields": {"create_datetime": "2022-06-30T18:25:45.073Z", "last_update": "2022-06-30T18:25:45.073Z", "product": 11, "order": 1, "quantity": 1}}, {"model": "shop.orderitem", "pk": 3, "fields": {"create_datetime": "2022-07-01T19:52:47.045Z", "last_update": "2022-07-01T19:52:47.045Z", "product": 6, "order": 1, "quantity": 1}}]
+[
+{
+  "model": "admin.logentry",
+  "pk": 204,
+  "fields": {
+    "action_time": "2022-08-05T11:07:11.812Z",
+    "user": 12,
+    "content_type": 6,
+    "object_id": "10",
+    "object_repr": "vladkostiuk9@gmail.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 205,
+  "fields": {
+    "action_time": "2022-08-05T11:07:25.560Z",
+    "user": 12,
+    "content_type": 9,
+    "object_id": "7",
+    "object_repr": "FUJIUDF",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 206,
+  "fields": {
+    "action_time": "2022-08-05T11:32:05.777Z",
+    "user": 12,
+    "content_type": 10,
+    "object_id": "19",
+    "object_repr": "Iphone SESmartphone",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Short Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 207,
+  "fields": {
+    "action_time": "2022-08-05T11:32:36.496Z",
+    "user": 12,
+    "content_type": 10,
+    "object_id": "20",
+    "object_repr": "Iphone 11Smartphone",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Short Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 208,
+  "fields": {
+    "action_time": "2022-08-05T11:33:27.088Z",
+    "user": 12,
+    "content_type": 10,
+    "object_id": "23",
+    "object_repr": "MacBook Air M1Laptop",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Short Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 209,
+  "fields": {
+    "action_time": "2022-08-05T11:34:36.269Z",
+    "user": 12,
+    "content_type": 10,
+    "object_id": "24",
+    "object_repr": "MacBook Air M2Laptop",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Short Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 210,
+  "fields": {
+    "action_time": "2022-08-05T12:00:32.360Z",
+    "user": 12,
+    "content_type": 10,
+    "object_id": "21",
+    "object_repr": "Iphone 12Smartphone",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Price\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 211,
+  "fields": {
+    "action_time": "2022-08-05T12:01:00.454Z",
+    "user": 12,
+    "content_type": 10,
+    "object_id": "23",
+    "object_repr": "MacBook Air M1Laptop",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Price\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 212,
+  "fields": {
+    "action_time": "2022-08-05T12:03:06.907Z",
+    "user": 12,
+    "content_type": 8,
+    "object_id": "17",
+    "object_repr": "17",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 213,
+  "fields": {
+    "action_time": "2022-08-05T12:29:48.579Z",
+    "user": 12,
+    "content_type": 9,
+    "object_id": "9",
+    "object_repr": "FJDNKSJNFKJSDF",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 214,
+  "fields": {
+    "action_time": "2022-08-05T12:32:58.737Z",
+    "user": 12,
+    "content_type": 9,
+    "object_id": "10",
+    "object_repr": "FMKDFLNSDF",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 215,
+  "fields": {
+    "action_time": "2022-08-05T19:54:11.225Z",
+    "user": 12,
+    "content_type": 10,
+    "object_id": "21",
+    "object_repr": "Iphone 12Smartphone",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 216,
+  "fields": {
+    "action_time": "2022-08-05T19:54:45.789Z",
+    "user": 12,
+    "content_type": 10,
+    "object_id": "21",
+    "object_repr": "Iphone 12Smartphone",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 4,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 4,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 4,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 4,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 5,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 5,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 5,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 5,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add Customer",
+    "content_type": 6,
+    "codename": "add_customer"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change Customer",
+    "content_type": 6,
+    "codename": "change_customer"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete Customer",
+    "content_type": 6,
+    "codename": "delete_customer"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view Customer",
+    "content_type": 6,
+    "codename": "view_customer"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add Category of product",
+    "content_type": 7,
+    "codename": "add_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change Category of product",
+    "content_type": 7,
+    "codename": "change_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete Category of product",
+    "content_type": 7,
+    "codename": "delete_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view Category of product",
+    "content_type": 7,
+    "codename": "view_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add order",
+    "content_type": 8,
+    "codename": "add_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change order",
+    "content_type": 8,
+    "codename": "change_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete order",
+    "content_type": 8,
+    "codename": "delete_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view order",
+    "content_type": 8,
+    "codename": "view_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add shipping address",
+    "content_type": 9,
+    "codename": "add_shippingaddress"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change shipping address",
+    "content_type": 9,
+    "codename": "change_shippingaddress"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete shipping address",
+    "content_type": 9,
+    "codename": "delete_shippingaddress"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view shipping address",
+    "content_type": 9,
+    "codename": "view_shippingaddress"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add Product",
+    "content_type": 10,
+    "codename": "add_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change Product",
+    "content_type": 10,
+    "codename": "change_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete Product",
+    "content_type": 10,
+    "codename": "delete_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view Product",
+    "content_type": 10,
+    "codename": "view_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add order item",
+    "content_type": 11,
+    "codename": "add_orderitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change order item",
+    "content_type": 11,
+    "codename": "change_orderitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete order item",
+    "content_type": 11,
+    "codename": "delete_orderitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view order item",
+    "content_type": 11,
+    "codename": "view_orderitem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "accounts",
+    "model": "customer"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "shop",
+    "model": "category"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "shop",
+    "model": "order"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "shop",
+    "model": "shippingaddress"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "shop",
+    "model": "product"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "shop",
+    "model": "orderitem"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "410jtbj8jx7ahuwsk95anbeud5sugjnr",
+  "fields": {
+    "session_data": ".eJxVjDkOwjAUBe_iGln52RxT0nMG62_GAWRLcVIh7g6RUkD7Zua9TMBtTWGruoRZzNmAOf1uhPzQvAO5Y74VyyWvy0x2V-xBq70W0eflcP8OEtb0rTtWBXQNC4PH6NELiCMEBlDn4ogQpwFRmrGDIbbU955AyLV-8sqdeX8AEg04uA:1o8e4t:AbDkTfvBFxi-7Blg6TLVCCYk26WZwysLOJJUGySz7HI",
+    "expire_date": "2022-07-19T08:38:39.009Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "5u1u2wgqj463vx3q3q679beps6lpx3ac",
+  "fields": {
+    "session_data": "e30:1oGd1n:zzCBS8dqFLKMLOKKwyI5XLWM9s46I9FQHpvcwJiQqYQ",
+    "expire_date": "2022-08-10T09:08:27.855Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "9xt8wl27ofbl0llywk7xexnwbdj0xd4z",
+  "fields": {
+    "session_data": ".eJxVjDkOwjAUBe_iGln52RxT0nMG62_GAWRLcVIh7g6RUkD7Zua9TMBtTWGruoRZzNmAOf1uhPzQvAO5Y74VyyWvy0x2V-xBq70W0eflcP8OEtb0rTtWBXQNC4PH6NELiCMEBlDn4ogQpwFRmrGDIbbU955AyLV-8sqdeX8AEg04uA:1oFuLo:LSCwZncRLuc15I7ybtIIGeAUd5mXpKnzdv7Z14eFulo",
+    "expire_date": "2022-08-08T09:26:08.727Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "cpazsc396f1mxyudcbld7oo41e1h2u6s",
+  "fields": {
+    "session_data": ".eJxVjDkOwjAUBe_iGln52RxT0nMG62_GAWRLcVIh7g6RUkD7Zua9TMBtTWGruoRZzNmAOf1uhPzQvAO5Y74VyyWvy0x2V-xBq70W0eflcP8OEtb0rTtWBXQNC4PH6NELiCMEBlDn4ogQpwFRmrGDIbbU955AyLV-8sqdeX8AEg04uA:1oIuAO:LatsaQEXxVdwjQuQzM_9gwNmUrF7hYdDra04AJApmg8",
+    "expire_date": "2022-08-16T15:50:44.073Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "exmv36pj015jab5d5575rns9jvh8oway",
+  "fields": {
+    "session_data": ".eJxVjDkOwjAUBe_iGln52RxT0nMG62_GAWRLcVIh7g6RUkD7Zua9TMBtTWGruoRZzNmAOf1uhPzQvAO5Y74VyyWvy0x2V-xBq70W0eflcP8OEtb0rTtWBXQNC4PH6NELiCMEBlDn4ogQpwFRmrGDIbbU955AyLV-8sqdeX8AEg04uA:1o9R94:XQq_8uxUIEn4hhUHef04gSo_CEzQwB5D-jQni50ai48",
+    "expire_date": "2022-07-21T13:02:14.536Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "hswytnjjolc4eveej9zf7inrt2qeqbbz",
+  "fields": {
+    "session_data": ".eJxVjDkOwjAUBe_iGln52RxT0nMG62_GAWRLcVIh7g6RUkD7Zua9TMBtTWGruoRZzNmAOf1uhPzQvAO5Y74VyyWvy0x2V-xBq70W0eflcP8OEtb0rTtWBXQNC4PH6NELiCMEBlDn4ogQpwFRmrGDIbbU955AyLV-8sqdeX8AEg04uA:1oBDzL:JjWYxf3pVdkbGP5pjTVcCi-H8WStsMVsMsFC14E8PxI",
+    "expire_date": "2022-07-26T11:23:35.502Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "msz8rpba991gptpu0iefgon4cx5dlb5s",
+  "fields": {
+    "session_data": "e30:1oGd9a:4XT_8GEyCNUl_buF1GLI26uYJJTl6fIa8ew284oTc1w",
+    "expire_date": "2022-08-10T09:16:30.990Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "tpf7ff8diyq9g27xhgq4pabjnuhlutao",
+  "fields": {
+    "session_data": "e30:1oGdEL:4lVLGf5Oa0_KWxlAedZeN0M6F_MXI3PU914m5G2pr-I",
+    "expire_date": "2022-08-10T09:21:25.766Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "vsdgu5yoau4uica4v6sm40ook9q2zn4h",
+  "fields": {
+    "session_data": ".eJxVjEsOAiEQBe_C2hA-DaJL956BNE0jowaSYWZlvLtOMgvdvqp6LxFxXWpcB89xyuIstBGH3zEhPbhtJN-x3bqk3pZ5SnJT5E6HvPbMz8vu_h1UHPVbE5Mu1hkCIrYWMubElq1OASHxEUzQ7lS4GFYeXfDeMCjjyCqETCDeHzK_OK0:1oK3E5:tzG9jVdvIoDAC9a_Fddv6S_XVetGXJNk98MGodUj9mI",
+    "expire_date": "2022-08-19T19:43:17.585Z"
+  }
+},
+{
+  "model": "accounts.customer",
+  "pk": 11,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$ewTnxiqb1NW9JQ6Sg00sxB$WDUoP5gY/2Cw7KEYfkH6vjpO9++KAHZ8WyFjBEp1H8o=",
+    "last_login": "2022-08-05T12:17:30.069Z",
+    "is_superuser": false,
+    "email": "testtest@gmail.com",
+    "first_name": "",
+    "last_name": "",
+    "birthdate": null,
+    "is_staff": false,
+    "is_active": true,
+    "photo": "",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.customer",
+  "pk": 12,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$HOmBNXPvlqhUdmNqF6snls$wwUmW9d55Hmbl6pCZVjeMg6td3BNs5G0q2gv35nfGJA=",
+    "last_login": "2022-08-05T19:43:17.583Z",
+    "is_superuser": true,
+    "email": "vladkostiuk2@gmail.com",
+    "first_name": "",
+    "last_name": "",
+    "birthdate": null,
+    "is_staff": true,
+    "is_active": true,
+    "photo": "",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.customer",
+  "pk": 13,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$NJ7HXOEbBOXtgjMSeYfKqA$hTTcdvALi0MR9c0FmDXsTHiNPxqYofB4hvP2CCmb82Q=",
+    "last_login": "2022-08-05T19:43:02.678Z",
+    "is_superuser": false,
+    "email": "vladkostiuk1@gmail.com",
+    "first_name": "",
+    "last_name": "",
+    "birthdate": null,
+    "is_staff": false,
+    "is_active": true,
+    "photo": "",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 19,
+  "fields": {
+    "create_datetime": "2022-08-05T09:49:51.556Z",
+    "last_update": "2022-08-05T11:32:05.773Z",
+    "category": 1,
+    "title": "Iphone SE",
+    "uuid": "4e503851-ee3d-4462-953e-96958b1fb017",
+    "short_description": "The iPhone SE is Apple's lowest-priced iPhone, meant to be an affordable alternative to the flagship devices. It has been around since 2016, and in 2022, Apple introduced the third-generation version",
+    "description": "The iPhone SE is Apple's entry-level iPhone, starting at $429. The device offers an affordable entry point to the iPhone lineup, with many important features such as a powerful A-series chip, a high-quality camera with 4K video recording, Haptic Touch, wireless charging, water and dust resistance, and more. The current model added the A15 Bionic chip from the iPhone 13, 5G connectivity, an upgraded rear camera with more advanced computational photography capabilities, improved battery life, and stronger glass. Announced in March 2022, the iPhone SE is the newest iPhone in Apple's lineup and is very early in its product cycle. Apple waited around three years to update the original iPhone SE before the 2020 model was released, leaving another two years before launching the current model. While the third-generation iPhone SE is still very new, there are early signs that a new model is in the works with a larger display. Overall, now is still a good time to buy the iPhone SE and most customers should not wait for a new model to launch.",
+    "price": "17000.00",
+    "image": "covers/iphone-se-red-select-202203_lJzr7Id.png"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 20,
+  "fields": {
+    "create_datetime": "2022-08-05T09:55:04.410Z",
+    "last_update": "2022-08-05T11:32:36.492Z",
+    "category": 1,
+    "title": "Iphone 11",
+    "uuid": "415c8d69-c0f8-428f-b909-4b957fd3a3f4",
+    "short_description": "The iPhone 11 is Apple's lower-priced iPhone, meant to be an affordable alternative to the flagship devices. The iPhone 11 serves as the de facto successor to the iPhone XR. It scores a 12MP ultra.",
+    "description": "The iPhone 11 serves as the de facto successor to the iPhone XR. It scores a 12MP ultra wide-angle camera at the rear which has a focal length of just 13mm and an aperture of F2.4. The iPhone 11 also gets a dedicated Night Mode for the camera, a new 12MP FaceTime selfie camera that shoots 4K60fps video, and improved Portrait mode. The A13 Bionic chipset is more powerful and efficient, adding an additional hour of battery life compared to the iPhone XR. The iPhone 11 is available in black, white, red, yellow, green, and purple. The starting price of the iPhone 11 is $699 for the 64GB version, $749 for the 128GB, and $849 for the 256GB one.",
+    "price": "20000.00",
+    "image": "covers/iphone11-black-select-2019_GEO_EMEA_mIXc835.png"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 21,
+  "fields": {
+    "create_datetime": "2022-08-05T09:58:16.058Z",
+    "last_update": "2022-08-05T19:54:45.785Z",
+    "category": 1,
+    "title": "Iphone 12",
+    "uuid": "b4782e39-9420-4543-ba31-8f45559186e9",
+    "short_description": "The iPhone 12 and iPhone 12 mini are part of Apple's 2020 generation of smartphones, offering OLED displays, 5G connectivity, the A14 chip, improved cameras, and MagSafe, all in a squared-off design.",
+    "description": "The iPhone 12 and iPhone 12 mini are part of Apple's 2020 generation of smartphones, offering OLED displays, 5G connectivity, the A14 chip, improved cameras, and MagSafe, all in a squared-off design. Following the introduction of the iPhone 13 lineup in September 2021, the iPhone 12 and 12 mini remain available for purchase as lower-cost options.\r\n\r\nAnnounced in October of 2020, the iPhone 12 and iPhone 12 mini are now over a year old and have been supplanted by the iPhone 13, but they remain a good value with solid performance. Apple tends to release new iPhone models every September, and despite the iPhone 12 and 12 mini launching a month later than usual in 2020, Apple returned to its normal schedule with the iPhone 13 launch in September 2021.",
+    "price": "23000.00",
+    "image": "covers/iphone-12-purple-select-2021_znGomHn.png"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 22,
+  "fields": {
+    "create_datetime": "2022-08-05T10:11:06.368Z",
+    "last_update": "2022-08-05T10:16:23.239Z",
+    "category": 1,
+    "title": "Iphone 13 mini",
+    "uuid": "1ea95576-8be9-4d74-987f-90fd54d6eee0",
+    "short_description": "Introduced on September 14, 2021, the iPhone 13 and iPhone 13 mini are Apple's newest flagship iPhones at the more affordable end, and are being sold alongside the more expensive iPhone 13 Pro",
+    "description": "The 5.4-inch iPhone 13 mini is the successor to the iPhone 12 mini, while the 6.1-inch iPhone 13 is the replacement for the iPhone 12. Both of the new iPhone 13 models are nearly identical in design to the iPhone 12 models, featuring flat edges, an aerospace-grade aluminum enclosure, a glass back, and a slight increase in thickness (7.65mm). The iPhone 13 models are available in Pink, Blue, Midnight (black), Starlight (silver/gold), (PRODUCT)RED, and Green.",
+    "price": "25000.00",
+    "image": "covers/iphone-13-green-select_4FwSQcr.png"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 23,
+  "fields": {
+    "create_datetime": "2022-08-05T10:15:09.203Z",
+    "last_update": "2022-08-05T12:01:00.451Z",
+    "category": 2,
+    "title": "MacBook Air M1",
+    "uuid": "9afaa1e2-0a47-45df-96a4-5d320cd05afa",
+    "short_description": "Apple MacBook Air (M1, 2020) is a macOS laptop with a 13.30-inch display that has a resolution of 2560x1600 pixels. It is powered by an Apple M1 processor and it comes with 8GB of RAM. More important.",
+    "description": "The new Apple MacBook Air, MacBook Pro, and Mac mini with the Apple M1 SoC have kickstarted the company's multi-year transition from Intel CPUs to its own in-house silicon. Apple's previous pivotal computing shift came about 15 years ago when it announced its transition from the PowerPC architecture to Intel CPUs, and now it's doing it again. This move was a long time coming, and a necessary one since it allows Apple greater control over the design and performance of its Mac computers. More importantly, it should also allow Apple to better plan future product roadmaps, now that it knows exactly what kind of chips to expect going ahead.",
+    "price": "42000.00",
+    "image": "covers/macbook-air-space-gray-m1-2020-space-gray_1.jpeg"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 24,
+  "fields": {
+    "create_datetime": "2022-08-05T10:20:16.619Z",
+    "last_update": "2022-08-05T11:34:36.262Z",
+    "category": 2,
+    "title": "MacBook Air M2",
+    "uuid": "45044b4d-3246-48e9-8f05-8977f7a6b53d",
+    "short_description": "The all-new 2022 MacBook Air stole the show at this year's WWDC, with its unveiling marking the biggest redesign the MacBook Air has seen since its first introduction in 2008. The 2022 MacBook Air ...",
+    "description": "The 2022 MacBook Air features a larger 13.6-inch display, compared to a 13.3-inch display on the 2020 model. The new display uses Apple’s newer Liquid Retina technology, compared to the previous generation’s Retina display. The most notable difference being that the corners are rounded rather than square, but this will also have an impact on colors and contrast. The 14 in-inch and 16-inch MacBook Pro models have higher-end Liquid Retina XDR displays.\r\n\r\nAt 500 nits of maximum brightness, the M2 MacBook Air is 25 percent brighter than the M1 MacBook Air’s 400 nits. This brings the Air in line with the 13-inch MacBook Pro, but places it far below the XDR display’s 1,000 nits. The MacBook Air also lacks the ProMotion technology of those models.",
+    "price": "53000.00",
+    "image": "covers/macbook-air-comparison.webp"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 25,
+  "fields": {
+    "create_datetime": "2022-08-05T10:23:03.867Z",
+    "last_update": "2022-08-05T10:26:42.433Z",
+    "category": 2,
+    "title": "MacBook Pro 16",
+    "uuid": "5ce8925c-ef3e-42a3-b057-3a1df3bb5a0b",
+    "short_description": "Cupertino, California — Apple today unveiled an all-new 16-inch MacBook Pro — the world’s best pro notebook — designed for developers, photographers, filmmakers, scientists, music producers and anyone",
+    "description": "Cupertino, California — Apple today unveiled an all-new 16-inch MacBook Pro — the world’s best pro notebook — designed for developers, photographers, filmmakers, scientists, music producers and anyone who relies on a Mac to create their life’s best work. The all-new MacBook Pro features a brilliant 16-inch Retina Display, the latest 8-core processors, up to 64GB of memory, next-generation graphics with up to 8GB of VRAM and a new advanced thermal design, making it the most powerful MacBook Pro ever.\r\nFeaturing a new Magic Keyboard with a redesigned scissor mechanism and 1mm travel for a more satisfying key feel, the 16-inch MacBook Pro delivers the best typing experience ever in a Mac notebook. The 16-inch MacBook Pro also includes a six-speaker sound system, longer battery life, Touch Bar, Touch ID, the Force Touch trackpad and the Apple T2 Security Chip",
+    "price": "70000.00",
+    "image": "covers/211342_1.jpeg"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 26,
+  "fields": {
+    "create_datetime": "2022-08-05T10:30:45.424Z",
+    "last_update": "2022-08-05T10:30:45.424Z",
+    "category": 5,
+    "title": "iMac M1",
+    "uuid": "6707fa2f-ff78-46e0-bbab-043a8e98e8a0",
+    "short_description": "Easy to learn. Astoundingly powerful. And designed to let you work, play, and create in ways you never imagined. It’s the computer that comes packed with apps that are ready to go right out of the box",
+    "description": "The Apple iMac 2021 (24-inch) is a breath of fresh air for the aging iMac line, bringing with it a beautiful display, an excellent webcam and an array of bright new color schemes.\r\n\r\nThese virtues seem especially welcome at a time when many of us have spent much of the last two years stuck at home, enjoying endless rounds of video calls with colleagues and loved ones. You might think the M1 chip in the new iMac is its most interesting feature, but after spending time testing this machine for my iMac 2021 review, I’m more impressed by the quality of its display, speakers, and camera.\r\n\r\nOf course, the new iMac’s no slouch in the performance department, either. This is the first iMac to incorporate Apple’s M1 chip, a custom bit of silicon that’s already proven itself to be powerful and efficient in the M1 MacBook Air, the M1 MacBook Pro, and the Mac mini with M1.",
+    "price": "45000.00",
+    "image": "covers/imac-24-green-selection-hero-202104_g2CAzpA.jpeg"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 27,
+  "fields": {
+    "create_datetime": "2022-08-05T10:31:34.382Z",
+    "last_update": "2022-08-05T10:32:10.533Z",
+    "category": 5,
+    "title": "IMac M1",
+    "uuid": "6e6b7e1b-cdda-463e-ae54-ad168fb462df",
+    "short_description": "Easy to learn. Astoundingly powerful. And designed to let you work, play, and create in ways you never imagined. It’s the computer that comes packed with apps that are ready to go right out of the box",
+    "description": "The Apple iMac 2021 (24-inch) is a breath of fresh air for the aging iMac line, bringing with it a beautiful display, an excellent webcam and an array of bright new color schemes.\r\n\r\nThese virtues seem especially welcome at a time when many of us have spent much of the last two years stuck at home, enjoying endless rounds of video calls with colleagues and loved ones. You might think the M1 chip in the new iMac is its most interesting feature, but after spending time testing this machine for my iMac 2021 review, I’m more impressed by the quality of its display, speakers, and camera.\r\n\r\nOf course, the new iMac’s no slouch in the performance department, either. This is the first iMac to incorporate Apple’s M1 chip, a custom bit of silicon that’s already proven itself to be powerful and efficient in the M1 MacBook Air, the M1 MacBook Pro, and the Mac mini with M1.",
+    "price": "45000.00",
+    "image": "covers/imac-24-pink-selection-hero-202104_RSu1m2e.jpeg"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 28,
+  "fields": {
+    "create_datetime": "2022-08-05T10:32:30.860Z",
+    "last_update": "2022-08-05T10:32:39.344Z",
+    "category": 5,
+    "title": "IMac M1",
+    "uuid": "60071309-006c-4f3c-a801-4beb513c6c7b",
+    "short_description": "Easy to learn. Astoundingly powerful. And designed to let you work, play, and create in ways you never imagined. It’s the computer that comes packed with apps that are ready to go right out of the box",
+    "description": "The Apple iMac 2021 (24-inch) is a breath of fresh air for the aging iMac line, bringing with it a beautiful display, an excellent webcam and an array of bright new color schemes.\r\n\r\nThese virtues seem especially welcome at a time when many of us have spent much of the last two years stuck at home, enjoying endless rounds of video calls with colleagues and loved ones. You might think the M1 chip in the new iMac is its most interesting feature, but after spending time testing this machine for my iMac 2021 review, I’m more impressed by the quality of its display, speakers, and camera.\r\n\r\nOf course, the new iMac’s no slouch in the performance department, either. This is the first iMac to incorporate Apple’s M1 chip, a custom bit of silicon that’s already proven itself to be powerful and efficient in the M1 MacBook Air, the M1 MacBook Pro, and the Mac mini with M1.",
+    "price": "45000.00",
+    "image": "covers/imac-24-purple-selection-hero-202104_U0BY5FN.jpeg"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 29,
+  "fields": {
+    "create_datetime": "2022-08-05T10:35:56.715Z",
+    "last_update": "2022-08-05T10:42:02.224Z",
+    "category": 4,
+    "title": "Apple Watch Series 7",
+    "uuid": "9f70519d-db90-4bdb-95dd-287abfd582f3",
+    "short_description": "The Apple Watch Series 7 comes in aluminum, titanium and steel, and is available in five amazing colors. It will be possible to successfully emphasize individual style thanks to additional accessories",
+    "description": "During the traditional autumn presentation of Apple Event 2021, among the number of new devices, company representatives showed Apple Watch Series 7 branded watches. According to the manufacturers, this generation has become the strongest in the entire history of the iconic Apple gadget. Apple Watch 7 is equipped with an incredibly reliable front glass, which is many times more resistant to the formation of cracks, chips and scratches. The Apple Watch 7 is the first watch from the company to receive IP6X dust protection certification and improved water resistance to the WR50 class.",
+    "price": "14500.00",
+    "image": "covers/MKUW3_VW_34FRwatch-45-alum-blue-nc-7s_VW_34FR_WF_CO_nqk3zdT.jpeg"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 30,
+  "fields": {
+    "create_datetime": "2022-08-05T10:44:16.791Z",
+    "last_update": "2022-08-05T10:44:25.993Z",
+    "category": 4,
+    "title": "Apple watch Series 7",
+    "uuid": "a2848a9e-8791-4610-8719-95c63be52fd5",
+    "short_description": "The stainless steel case is durable and polished to a shiny, mirror-like finish. The Sport Loop is made from a soft and breathable double-layer nylon weave, with a hook-and-loop fastener for quick an.",
+    "description": "During the traditional autumn presentation of Apple Event 2021, among the number of new devices, company representatives showed Apple Watch Series 7 branded watches. According to the manufacturers, this generation has become the strongest in the entire history of the iconic Apple gadget. Apple Watch 7 is equipped with an incredibly reliable front glass, which is many times more resistant to the formation of cracks, chips and scratches. The Apple Watch 7 is the first watch from the company to receive IP6X dust protection certification and improved water resistance to the WR50 class.",
+    "price": "15500.00",
+    "image": "covers/MN6K3_VW_34FRwatch-41-sr-cell-7s_VW_34FR_WF_COwatch-face-40-se-sportloop-pride_V_pd7yL7p.jpeg"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 31,
+  "fields": {
+    "create_datetime": "2022-08-05T10:47:17.757Z",
+    "last_update": "2022-08-05T10:47:17.757Z",
+    "category": 4,
+    "title": "Apple Watch SE",
+    "uuid": "16a53578-9246-4f76-a19f-836bdb2467a0",
+    "short_description": "Powerful features to help keep you connected, active, healthy, and safe. Advanced sensors to track all the ways you move and to measure your favorite workouts. So you can go without your phone...",
+    "description": "Apple Watch SE is a more affordable version of Apple's smart watch. They received the same design as in the older model, and the difference affected only the materials of the body - only aluminum. The Apple Watch SE is equipped with a processor twice as fast as the Series 3, and also has a larger screen. Watches allow you to comfortably monitor all notifications from your smartphone, answer calls, messages, manage music listening and monitor physical activity during training. The watches are equipped with a built-in optical heart rate monitor, and are also able to record the state of sleep. A huge selection of straps will help add more individuality to the Apple Watch SE.",
+    "price": "12000.00",
+    "image": "covers/apple-band-starlight-mku93-41mm-40mm-38mm-series.1000x.jpg"
+  }
+},
+{
+  "model": "shop.category",
+  "pk": 1,
+  "fields": {
+    "create_datetime": "2022-06-29T20:03:40.001Z",
+    "last_update": "2022-06-29T20:03:40.001Z",
+    "name": "Smartphone",
+    "description": null,
+    "slug": "smartphone"
+  }
+},
+{
+  "model": "shop.category",
+  "pk": 2,
+  "fields": {
+    "create_datetime": "2022-06-29T20:04:09.605Z",
+    "last_update": "2022-06-29T20:04:09.605Z",
+    "name": "Laptop",
+    "description": null,
+    "slug": "laptop"
+  }
+},
+{
+  "model": "shop.category",
+  "pk": 4,
+  "fields": {
+    "create_datetime": "2022-06-30T18:24:18.266Z",
+    "last_update": "2022-07-01T08:09:43.883Z",
+    "name": "Apple watch",
+    "description": null,
+    "slug": "watch"
+  }
+},
+{
+  "model": "shop.category",
+  "pk": 5,
+  "fields": {
+    "create_datetime": "2022-07-05T12:13:46.593Z",
+    "last_update": "2022-07-05T12:13:46.593Z",
+    "name": "Computer",
+    "description": null,
+    "slug": "computer"
+  }
+},
+{
+  "model": "shop.order",
+  "pk": 18,
+  "fields": {
+    "create_datetime": "2022-08-02T14:19:19.522Z",
+    "last_update": "2022-08-02T14:19:19.522Z",
+    "customer": 11,
+    "complete": false,
+    "transaction_id": null
+  }
+},
+{
+  "model": "shop.order",
+  "pk": 19,
+  "fields": {
+    "create_datetime": "2022-08-05T11:38:00.107Z",
+    "last_update": "2022-08-05T11:38:00.107Z",
+    "customer": 12,
+    "complete": false,
+    "transaction_id": null
+  }
+},
+{
+  "model": "shop.order",
+  "pk": 20,
+  "fields": {
+    "create_datetime": "2022-08-05T19:43:04.307Z",
+    "last_update": "2022-08-05T19:43:04.307Z",
+    "customer": 13,
+    "complete": false,
+    "transaction_id": null
+  }
+},
+{
+  "model": "shop.shippingaddress",
+  "pk": 8,
+  "fields": {
+    "create_datetime": "2022-08-05T12:02:18.078Z",
+    "last_update": "2022-08-05T12:02:18.078Z",
+    "customer": 12,
+    "order": 19,
+    "address": "Olzhocha 17A",
+    "city": "Kiev",
+    "state": "місто Київ",
+    "zipcode": "04060"
+  }
+},
+{
+  "model": "shop.shippingaddress",
+  "pk": 11,
+  "fields": {
+    "create_datetime": "2022-08-05T19:41:57.207Z",
+    "last_update": "2022-08-05T19:41:57.207Z",
+    "customer": 12,
+    "order": 19,
+    "address": "1 May",
+    "city": "Gaisin",
+    "state": "Ukraine",
+    "zipcode": "04060"
+  }
+}
+]
