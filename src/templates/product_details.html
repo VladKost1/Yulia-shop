@@ -93,11 +93,10 @@ https://templatemo.com/tm-546-sixteen-clothing
               <p>{{ product.description }}</p>
               <ul class="social-icons">
                 <h4>Price - {{product.price}} ₴</h4>
-                <form method="POST">
+                <form method="POST" action="{% url 'shop:add_cart' product=product.uuid %}" >
                       {% csrf_token %}
-                  <a href="{% url 'shop:add_cart' product=product.uuid %}" class="filled-button">Add to Cart</a>
+                  <button data-action="" style="border-radius: 8px;" class="btn btn-outline-success btn-lg">Add to Cart</button>
                   </form>
-
               </ul>
             </div>
           </div>
