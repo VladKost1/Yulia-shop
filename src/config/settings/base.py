@@ -25,10 +25,9 @@ SECRET_KEY = "django-insecure-u2)wz$werbx-umsj7(@60@2$##u!7q2rm3-4@inuh)5k34buin
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-CART_SESSION_ID = 'cart'
-
 ALLOWED_HOSTS = [
     "127.0.0.1",
+    "ec2-18-169-131-9.eu-west-2.compute.amazonaws.com"
 ]
 
 # Application definition

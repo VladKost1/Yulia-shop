@@ -169,6 +169,32 @@
   }
 },
 {
+  "model": "admin.logentry",
+  "pk": 217,
+  "fields": {
+    "action_time": "2022-08-08T18:59:23.288Z",
+    "user": 12,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Apple TV",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 218,
+  "fields": {
+    "action_time": "2022-08-08T19:02:08.705Z",
+    "user": 12,
+    "content_type": 10,
+    "object_id": "32",
+    "object_repr": "Apple TVApple TV",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
   "model": "auth.permission",
   "pk": 1,
   "fields": {
@@ -670,6 +696,14 @@
 },
 {
   "model": "sessions.session",
+  "pk": "7qex4j98idvpnq9b997y28gf9yq3ug84",
+  "fields": {
+    "session_data": ".eJxVjEsOAiEQBe_C2hA-DaJL956BNE0jowaSYWZlvLtOMgvdvqp6LxFxXWpcB89xyuIstBGH3zEhPbhtJN-x3bqk3pZ5SnJT5E6HvPbMz8vu_h1UHPVbE5Mu1hkCIrYWMubElq1OASHxEUzQ7lS4GFYeXfDeMCjjyCqETCDeHzK_OK0:1oL7wn:Bs8ADFKMU8v27NWkSY52u7NwhpmwZTFji3i1ORmvhLs",
+    "expire_date": "2022-08-22T18:57:53.886Z"
+  }
+},
+{
+  "model": "sessions.session",
   "pk": "9xt8wl27ofbl0llywk7xexnwbdj0xd4z",
   "fields": {
     "session_data": ".eJxVjDkOwjAUBe_iGln52RxT0nMG62_GAWRLcVIh7g6RUkD7Zua9TMBtTWGruoRZzNmAOf1uhPzQvAO5Y74VyyWvy0x2V-xBq70W0eflcP8OEtb0rTtWBXQNC4PH6NELiCMEBlDn4ogQpwFRmrGDIbbU955AyLV-8sqdeX8AEg04uA:1oFuLo:LSCwZncRLuc15I7ybtIIGeAUd5mXpKnzdv7Z14eFulo",
@@ -747,7 +781,7 @@
   "pk": 12,
   "fields": {
     "password": "pbkdf2_sha256$260000$HOmBNXPvlqhUdmNqF6snls$wwUmW9d55Hmbl6pCZVjeMg6td3BNs5G0q2gv35nfGJA=",
-    "last_login": "2022-08-05T19:43:17.583Z",
+    "last_login": "2022-08-08T18:57:53.860Z",
     "is_superuser": true,
     "email": "vladkostiuk2@gmail.com",
     "first_name": "",
@@ -974,6 +1008,21 @@
   }
 },
 {
+  "model": "shop.product",
+  "pk": 32,
+  "fields": {
+    "create_datetime": "2022-08-08T19:02:08.679Z",
+    "last_update": "2022-08-08T19:02:08.679Z",
+    "category": 6,
+    "title": "Apple TV",
+    "uuid": "56927351-571a-447b-9382-63b17200cd0f",
+    "short_description": "Apple TV 4K is the ultimate smart home hub, letting you control all your HomeKit devices. Take a look at everything you can share. With AirPlay, you can share the latest movies, vacation photos, music",
+    "description": "Apple TV 4K is the ultimate smart home hub, letting you control all your HomeKit devices. Take a look at everything you can share. With AirPlay, you can share the latest movies, vacation photos, music, and even 4K HDR videos from your iPhone or iPad to your Apple TV 4K in their full resolution. You get your TV.",
+    "price": "20000.00",
+    "image": "covers/apple-tv-4k-hero-select-202104_FMT_WHH_6Gdn50Z.jpeg"
+  }
+},
+{
   "model": "shop.category",
   "pk": 1,
   "fields": {
@@ -1015,6 +1064,17 @@
     "name": "Computer",
     "description": null,
     "slug": "computer"
+  }
+},
+{
+  "model": "shop.category",
+  "pk": 6,
+  "fields": {
+    "create_datetime": "2022-08-08T18:59:23.256Z",
+    "last_update": "2022-08-08T18:59:23.256Z",
+    "name": "Apple TV",
+    "description": null,
+    "slug": "appletv"
   }
 },
 {
