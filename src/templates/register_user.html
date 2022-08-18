@@ -3,40 +3,42 @@
 <html lang="en" style="background-color:#eee">
 <head>
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<!--    <link href="{% static 'vendor/bootstrap/css/account.css' %}" rel="stylesheet">-->
-<!--    <link rel="stylesheet" href="{% static 'assets/css/fontawesome.css' %}">-->
+    <!--    <link href="{% static 'vendor/bootstrap/css/account.css' %}" rel="stylesheet">-->
+    <!--    <link rel="stylesheet" href="{% static 'assets/css/fontawesome.css' %}">-->
     <link rel="stylesheet" href="{% static 'assets/css/templatemo-sixteen.css' %}">
     <link rel="stylesheet" href="{% static 'assets/css/owl.css' %}">
     <link rel="stylesheet" href="{% static 'vendor/bootstrap/css/paginations.css' %}">
-<!--    <link rel="stylesheet" href="{% static 'assets/css/cart.css' %}">-->
+    <!--    <link rel="stylesheet" href="{% static 'assets/css/cart.css' %}">-->
 </head>
 {% block content %}
 {% if form.errors %}
-<div class="alert alert-warning" role="alert"><h5>username or password does not match the requirements of the form</h5></div>
+<div class="alert alert-warning" role="alert"><h5>username or password does not match the requirements of the form</h5>
+</div>
 {% endif %}
 
 <header class="">
-      <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg">
         <div class="container">
-          <a class="navbar-brand" href="/"><h2>Giulia <em>Shop</em></h2></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="/">Home
-                  <span class="sr-only">(current)</span>
-                </a>
-              </li>
-               <li class="nav-item">
-                <a class="nav-link" href="{% url 'accounts:login' %}">Login</a>
-              </li>
-            </ul>
-          </div>
+            <a class="navbar-brand" href="/"><h2>Giulia <em>Shop</em></h2></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'accounts:login' %}">Login</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </nav>
-    </header>
+    </nav>
+</header>
 <br>
 <br>
 <section class="vh-100" style="background-color: #eee;">
@@ -51,7 +53,7 @@
                                 <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Sign up</p>
 
                                 <form class="mx-1 mx-md-4" action="." method="POST">
-                                        {% csrf_token %}
+                                    {% csrf_token %}
                                     <div class="d-flex flex-row align-items-center mb-4">
                                         <i class="fas fa-user fa-lg me-3 fa-fw"></i>
                                         <div class="form-outline flex-fill mb-0">
@@ -75,7 +77,13 @@
                                             {{ form.password1 }}
                                         </div>
                                     </div>
-
+                                    <div class="alert alert-light" role="alert" style="font-size: 12px;">
+                                                Password must contain the following:
+                                                <br>- A lowercase letter
+                                                <br>- A capital (uppercase) letter
+                                                <br>- A number
+                                                <br>- Minimum 8 characters
+                                            </div>
                                     <div class="d-flex flex-row align-items-center mb-4">
                                         <i class="fas fa-key fa-lg me-3 fa-fw"></i>
                                         <div class="form-outline flex-fill mb-0">
@@ -83,7 +91,7 @@
                                             {{ form.password2 }}
                                         </div>
                                     </div>
-                                         <input type="submit" value="Log in" class="btn btn-danger ">
+                                    <input type="submit" value="Log in" class="btn btn-danger ">
                                 </form>
 
                             </div>
@@ -100,9 +108,6 @@
         </div>
     </div>
 </section>
-
-
-
 
 
 {% endblock %}
