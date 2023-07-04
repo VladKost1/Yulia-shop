@@ -1,0 +1,1 @@
+web ginucorn scr.wsgi:application --log-file -
